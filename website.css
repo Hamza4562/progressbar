@@ -1,0 +1,41 @@
+.Circle{
+    background-color:#E7439D;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    box-shadow: 5px;
+}
+.line{
+display: flex;
+text-align: center;
+gap: 10vh;
+
+
+}
+.first,.second,.third,.fourth,.fiveth,.sixth,.seventh,.eight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+h4{
+    padding: 0vh;
+    margin: 0vw;
+}
+.Circle2{
+    background-color:transparent;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 20vw;
+}
+.actuallline{
+    height: 2vh;
+    width: 98vw;
+    background-color: #FFB5DD;
+    position: absolute;
+    top: 5.2vw;
+    z-index: -1;
+    border-radius: 1vh;
+    
+}
